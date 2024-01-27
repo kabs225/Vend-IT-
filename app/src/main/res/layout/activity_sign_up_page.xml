@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpPage">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoreplace" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="373dp"
+        android:layout_height="278dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/loginbox" />
+
+    <Button
+        android:id="@+id/btnSignUpDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CA5A6"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="196dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        android:drawableLeft="@drawable/user_plus"
+        android:drawablePadding="10dp"/>
+
+    +<EditText
+    android:id="@+id/editTextTextPassword"
+    android:layout_width="197dp"
+    android:layout_height="43dp"
+    android:layout_marginTop="8dp"
+    android:ems="10"
+    android:inputType="textPassword"
+    android:hint="Password"
+    app:layout_constraintEnd_toEndOf="@+id/editTextText"
+    app:layout_constraintStart_toStartOf="@+id/editTextText"
+    app:layout_constraintTop_toBottomOf="@+id/editTextText"
+    android:drawableLeft="@drawable/lock"
+    android:drawablePadding="15dp"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:hint="Number"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        android:drawableLeft="@drawable/user_plus"
+        android:drawablePadding="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

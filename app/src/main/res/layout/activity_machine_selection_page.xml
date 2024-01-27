@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MachineSelectionPage">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="525dp"
+        android:layout_height="821dp"
+        android:src="@drawable/mapbackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="379dp"
+        android:layout_height="564dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.628"
+        app:srcCompat="@drawable/white" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="319dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_machine1"
+        app:layout_constraintEnd_toEndOf="@+id/btn_machine1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine1"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blackline" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="319dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_machine2"
+        app:layout_constraintEnd_toEndOf="@+id/btn_machine2"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine2"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blackline" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="319dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_machine3"
+        app:layout_constraintEnd_toEndOf="@+id/btn_machine3"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine3"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blackline" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="319dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_machine4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_machine4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine4"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine4"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blackline" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="211dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="24dp"
+        android:includeFontPadding="false"
+        android:text="Nearest Vending Machines"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:text="Machine 1 Name"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine1"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="124dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="68dp"
+        android:text="Distance (m)"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine1"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="124dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="40dp"
+        android:text="Address"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine1"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:text="Machine 2 Name"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine2"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="124dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="68dp"
+        android:text="Distance (m)"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine2"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="124dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="40dp"
+        android:text="Address"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine2"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine2" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="60dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine1"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine1"
+        app:srcCompat="@drawable/vendingmachine" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="60dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_machine2"
+        app:layout_constraintTop_toTopOf="@+id/btn_machine2"
+        app:srcCompat="@drawable/vendingmachine2" />
+
+    <Button
+        android:id="@+id/btn_machine1"
+        android:layout_width="317dp"
+        android:layout_height="106dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btn_machine3"
+        android:layout_width="317dp"
+        android:layout_height="106dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <Button
+        android:id="@+id/btn_machine4"
+        android:layout_width="317dp"
+        android:layout_height="106dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <Button
+        android:id="@+id/btn_machine2"
+        android:layout_width="317dp"
+        android:layout_height="106dp"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.253" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
