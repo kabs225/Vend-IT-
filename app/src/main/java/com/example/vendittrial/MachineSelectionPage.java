@@ -64,7 +64,7 @@ public class MachineSelectionPage extends AppCompatActivity {
     }
 
     public void itemSelectionPage() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, itemSelectionPage.class);
         startActivity(intent);
     }
 }
