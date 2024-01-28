@@ -52,6 +52,14 @@ public class MachineSelectionPage extends AppCompatActivity {
             }
         });
 
+        button5 = (Button) findViewById(R.id.btn_profile);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                itemSelectionPage();
+            }
+        });
+
 
     }
 
