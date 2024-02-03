@@ -107,8 +107,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:id="@+id/txtquantity1"
-        android:layout_width="208dp"
+        android:id="@+id/txtquantity11"
+        android:layout_width="72dp"
         android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="128dp"
@@ -134,7 +134,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:id="@+id/txtquantity2"
+        android:id="@+id/txtquantity22"
         android:layout_width="208dp"
         android:layout_height="19dp"
         android:layout_marginStart="28dp"
@@ -152,7 +152,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:id="@+id/txtquantity3"
+        android:id="@+id/txtquantity33"
         android:layout_width="208dp"
         android:layout_height="19dp"
         android:layout_marginStart="40dp"
