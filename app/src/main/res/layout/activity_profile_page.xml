@@ -8,44 +8,17 @@
     tools:layout_editor_absoluteX="-12dp"
     tools:layout_editor_absoluteY="-54dp">
 
-    <ImageView
-        android:id="@+id/imageView51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
         android:text="Srushti"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView51"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="205dp"
-        android:layout_height="75dp"
-        android:insetLeft="105dp"
-        android:insetTop="15dp"
-        android:text="Edit profile"
-        android:textSize="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.31"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
@@ -67,8 +40,8 @@
         android:id="@+id/button3"
         android:layout_width="356dp"
         android:layout_height="74dp"
-        android:layout_marginTop="20dp"
 
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/order_history"
         android:drawablePadding="20dp"
         android:paddingStart="20dp"
@@ -76,6 +49,7 @@
         android:textAlignment="viewStart"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -99,8 +73,8 @@
         android:id="@+id/button"
         android:layout_width="356dp"
         android:layout_height="70dp"
-        android:layout_marginTop="60dp"
 
+        android:layout_marginTop="292dp"
         android:drawableStart="@drawable/telephone"
         android:drawablePadding="20dp"
         android:paddingStart="20dp"
@@ -108,7 +82,30 @@
         android:textAlignment="viewStart"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="142dp"
+        android:layout_height="141dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736"
+        app:srcCompat="@drawable/profile1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
