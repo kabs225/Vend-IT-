@@ -56,7 +56,7 @@ public class MachineSelectionPage extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                itemSelectionPage();
+                profilePage();
             }
         });
 
@@ -65,6 +65,11 @@ public class MachineSelectionPage extends AppCompatActivity {
 
     public void itemSelectionPage() {
         Intent intent = new Intent(this, itemSelectionPage.class);
+        startActivity(intent);
+    }
+
+    public void profilePage() {
+        Intent intent = new Intent(this, profile_page.class);
         startActivity(intent);
     }
 }

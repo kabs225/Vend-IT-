@@ -38,7 +38,6 @@
         android:id="@+id/button5"
         android:layout_width="205dp"
         android:layout_height="75dp"
-        android:backgroundTint="#5D8EA5"
         android:insetLeft="105dp"
         android:insetTop="15dp"
         android:text="Edit profile"
