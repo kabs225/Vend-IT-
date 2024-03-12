@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class LoginPage extends AppCompatActivity {
     private Button button;
+    private static String user_name1= "kabeer";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,9 +24,14 @@ public class LoginPage extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(username.getText().toString().equals("kabs225")&&password.getText().toString().equals("admin"))
+                if(username.getText().toString().equals(user_name1)&&password.getText().toString().equals("admin"))
                 {
                     //correct
+                    Toast.makeText(LoginPage.this, "LOGIN SUCCESS",Toast.LENGTH_SHORT).show();
+                    openMachineSelectionPage();
+                }
+                else if (username.getText().toString().equals("srushti")&&password.getText().toString().equals("admin"))
+                {
                     Toast.makeText(LoginPage.this, "LOGIN SUCCESS",Toast.LENGTH_SHORT).show();
                     openMachineSelectionPage();
                 }
@@ -38,5 +44,10 @@ public class LoginPage extends AppCompatActivity {
     {
         Intent intent = new Intent(this, MachineSelectionPage.class);
         startActivity(intent);
+    }
+
+    public static String getusername1()
+    {
+        return user_name1;
     }
 }
