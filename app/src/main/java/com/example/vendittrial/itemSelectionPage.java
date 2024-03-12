@@ -14,12 +14,12 @@ public class itemSelectionPage extends AppCompatActivity {
     private Button button;
     private Button btnAddItem1,btnAddItem2,btnAddItem3,btnAddItem4,btnAddItem5,btnAddItem6;
     private Button btnSubItem1,btnSubItem2,btnSubItem3,btnSubItem4,btnSubItem5,btnSubItem6;
-    private int item1 = 0;  // Variable to track the quantity of item1
-    private int item2 = 0;
-    private int item3 = 0;
-    private int item4 = 0;
-    private int item5 = 0;
-    private int item6 = 0;
+    private  static int item1 = 0;  // Variable to track the quantity of item1
+    private  int item2 = 0;
+    private  int item3 = 0;
+    private  int item4 = 0;
+    private  int item5 = 0;
+    private  int item6 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -128,9 +128,9 @@ public class itemSelectionPage extends AppCompatActivity {
         });
     }
 
-    public void opencartPage()
+    public void opencartPage() //TODO cart not opening
     {
-        Intent intent = new Intent(this, cart.class);
+        Intent intent = new Intent(this, MainCart.class);
         startActivity(intent);
     }
 
@@ -252,6 +252,11 @@ public class itemSelectionPage extends AppCompatActivity {
         // You can perform any additional actions based on the updated item1 quantity if needed.
         // For   now, let's just display a Toast mee.
         Toast.makeText(this, "Item6 quantity: " + item6, Toast.LENGTH_SHORT).show();
+    }
+    public static String getItem1()
+    {
+        String s = String.valueOf(item1);
+        return s;
     }
 
 }

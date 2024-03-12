@@ -22,8 +22,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="356dp"
-        android:layout_height="70dp"
+        android:layout_width="324dp"
+        android:layout_height="71dp"
 
         android:layout_marginTop="20dp"
         android:drawableStart="@drawable/padlock"
@@ -38,7 +38,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
-        android:layout_width="356dp"
+        android:layout_width="322dp"
         android:layout_height="74dp"
         android:layout_marginTop="20dp"
 
@@ -54,8 +54,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
-        android:layout_width="356dp"
-        android:layout_height="68dp"
+        android:layout_width="316dp"
+        android:layout_height="71dp"
         android:layout_marginTop="19dp"
 
         android:drawableStart="@drawable/signout"
@@ -70,8 +70,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
-        android:layout_width="356dp"
-        android:layout_height="70dp"
+        android:layout_width="326dp"
+        android:layout_height="74dp"
 
         android:layout_marginTop="8dp"
         android:drawableStart="@drawable/telephone"
@@ -100,7 +100,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Button"
+        android:backgroundTint="#5D8EA5"
+        android:text="Edit profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
