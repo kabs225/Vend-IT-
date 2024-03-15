@@ -22,7 +22,7 @@ public class MainCart extends AppCompatActivity {
         TextView tv1 = (TextView)findViewById(R.id.txtquantity11);
         tv1.setText(item1);
 
-        button = (Button) findViewById(R.id.btn_backcart);
+        button = (Button) findViewById(R.id.btn_buy);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,7 +31,7 @@ public class MainCart extends AppCompatActivity {
         });
     }
     public void itemSelectionPage() {
-        Intent intent = new Intent(this, itemSelectionPage.class);
+        Intent intent = new Intent(this, TEST.class);
         startActivity(intent);
     }
 }
