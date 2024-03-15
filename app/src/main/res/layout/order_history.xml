@@ -164,54 +164,56 @@
         app:layout_constraintStart_toEndOf="@+id/imageView60"
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
-    <!--<ImageView
+    <ImageView
         android:id="@+id/imageView54"
-        android:layout_width="364dp"
-        android:layout_height="163dp"
-        android:layout_marginTop="23dp"
+        android:layout_width="395dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView32"
-        app:srcCompat="@drawable/rect" />-->
+        app:srcCompat="@drawable/rect" />
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
         android:text="Item2 X 2"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/imageView54"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView33" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="6dp"
-        android:text="Item3 X 3"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/imageView54"
-        app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
         android:text="Item1 X 1"
         android:textColor="@color/black"
         android:textSize="20sp"
+
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/imageView54"
-        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Item3 X 3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
     <TextView
         android:id="@+id/textView39"
@@ -220,9 +222,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="32dp"
         android:text="10 Rs"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/textView33"
         app:layout_constraintTop_toBottomOf="@+id/textView321" />
 
@@ -230,8 +232,8 @@
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="16dp"
         android:text="20 Rs"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -243,8 +245,8 @@
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="20dp"
         android:text="30 Rs"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -256,25 +258,25 @@
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:text="Total Amount"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="@+id/imageView54"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
         app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
     <TextView
         android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="68dp"
         android:text="60 Rs"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/textView42"
         app:layout_constraintTop_toBottomOf="@+id/textView40" />
 
