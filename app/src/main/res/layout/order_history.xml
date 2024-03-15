@@ -1,3 +1,4 @@
+<!-- TODO change images-->
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -40,8 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView49" />
 
-<!--
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView52"
         android:layout_width="378dp"
         android:layout_height="258dp"
@@ -79,8 +79,7 @@
         android:layout_marginTop="110dp"
         app:layout_constraintStart_toEndOf="@+id/imageView53"
         app:layout_constraintTop_toBottomOf="@+id/textView23"
-        app:srcCompat="@drawable/location" />
--->
+        app:srcCompat="@drawable/location" />-->
 
     <ImageView
         android:id="@+id/imageView60"
@@ -166,7 +165,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView60"
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
-<!--    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView54"
         android:layout_width="364dp"
         android:layout_height="163dp"
