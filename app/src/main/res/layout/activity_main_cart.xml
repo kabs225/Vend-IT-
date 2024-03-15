@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainCart">
 
     <ImageView
@@ -84,8 +85,8 @@
 
     <ImageView
         android:id="@+id/imageView47"
-        android:layout_width="375dp"
-        android:layout_height="78dp"
+        android:layout_width="323dp"
+        android:layout_height="59dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="156dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,8 +106,8 @@
 
     <ImageView
         android:id="@+id/imageView48"
-        android:layout_width="375dp"
-        android:layout_height="66dp"
+        android:layout_width="323dp"
+        android:layout_height="54dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="268dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,8 +116,8 @@
 
     <ImageView
         android:id="@+id/imageView49"
-        android:layout_width="375dp"
-        android:layout_height="66dp"
+        android:layout_width="321dp"
+        android:layout_height="68dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="372dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,7 +126,7 @@
 
     <ImageView
         android:id="@+id/imageView53"
-        android:layout_width="375dp"
+        android:layout_width="321dp"
         android:layout_height="66dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="476dp"
