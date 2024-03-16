@@ -15,11 +15,11 @@ public class itemSelectionPage extends AppCompatActivity {
     private Button btnAddItem1,btnAddItem2,btnAddItem3,btnAddItem4,btnAddItem5,btnAddItem6;
     private Button btnSubItem1,btnSubItem2,btnSubItem3,btnSubItem4,btnSubItem5,btnSubItem6;
     private  static int item1 = 0;  // Variable to track the quantity of item1
-    private  int item2 = 0;
-    private  int item3 = 0;
-    private  int item4 = 0;
-    private  int item5 = 0;
-    private  int item6 = 0;
+    private  static int item2 = 0;
+    private  static int item3 = 0;
+    private  static int item4 = 0;
+    private  static int item5 = 0;
+    private  static int item6 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -256,6 +256,33 @@ public class itemSelectionPage extends AppCompatActivity {
     public static String getItem1()
     {
         String s = String.valueOf(item1);
+        return s;
+    }
+    public static String getItem2()
+    {
+        String s = String.valueOf(item2);
+        return s;
+    }
+
+    public static String getItem3()
+    {
+        String s = String.valueOf(item3);
+        return s;
+    }
+    public static String getItem4()
+    {
+        String s = String.valueOf(item4);
+        return s;
+    }
+
+    public static String getItem5()
+    {
+        String s = String.valueOf(item5);
+        return s;
+    }
+    public static String getItem6()
+    {
+        String s = String.valueOf(item6);
         return s;
     }
 

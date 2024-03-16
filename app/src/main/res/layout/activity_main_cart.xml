@@ -55,7 +55,7 @@
         android:layout_marginTop="96dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/blue" />
+        app:srcCompat="@drawable/pngegg" />
 
     <TextView
         android:id="@+id/txtname1"
@@ -63,6 +63,7 @@
         android:layout_height="19dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
+        android:text="Lays"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -81,6 +82,7 @@
         android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="144dp"
+        android:text="Kurkure"
         app:layout_constraintStart_toEndOf="@+id/imageView43"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -142,7 +144,7 @@
         android:layout_marginTop="292dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/blue" />
+        app:srcCompat="@drawable/dairymilk" />
 
     <TextView
         android:id="@+id/txtname3"
@@ -150,6 +152,7 @@
         android:layout_height="19dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="252dp"
+        android:text="dairy milk"
         app:layout_constraintStart_toEndOf="@+id/imageView44"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -179,7 +182,7 @@
         android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/orange" />
+        app:srcCompat="@drawable/kurkure" />
 
     <TextView
         android:id="@+id/txtprice4"
@@ -198,7 +201,7 @@
         android:layout_marginTop="412dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/orange" />
+        app:srcCompat="@drawable/snickers" />
 
     <TextView
         android:id="@+id/txtname4"
@@ -206,6 +209,7 @@
         android:layout_height="19dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="352dp"
+        android:text="snickers"
         app:layout_constraintStart_toEndOf="@+id/imageView50"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -226,7 +230,7 @@
         android:layout_marginTop="524dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/blue" />
+        app:srcCompat="@drawable/oreo" />
 
     <TextView
         android:id="@+id/txtname5"
@@ -234,6 +238,7 @@
         android:layout_height="19dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="464dp"
+        android:text="Oreos"
         app:layout_constraintStart_toEndOf="@+id/imageView51"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
