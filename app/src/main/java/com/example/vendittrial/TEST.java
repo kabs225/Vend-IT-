@@ -27,39 +27,25 @@ public class TEST extends AppCompatActivity {
         Button button4 = findViewById(R.id.button4);
         Button button5 = findViewById(R.id.button5);
 
+        String item1 = itemSelectionPage.getItem1();
+        String item2 = itemSelectionPage.getItem2();
+        String item3 = itemSelectionPage.getItem3();
+        String item4 = itemSelectionPage.getItem4();
+        String item5 = itemSelectionPage.getItem5();
+
+        int i1 = Integer.parseInt(item1);
+        int i2 = Integer.parseInt(item2);
+        int i3 = Integer.parseInt(item3);
+        int i4 = Integer.parseInt(item4);
+        int i5 = Integer.parseInt(item5);
+
+        String formattedString = String.format("%d%d%d%d%d", i1, i2, i3, i4, i5);
+
         // Set click listeners for buttons
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                publishMessage("iot-bulb", "1");
-            }
-        });
-
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                publishMessage("iot-bulb", "2");
-            }
-        });
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                publishMessage("iot-bulb", "3");
-            }
-        });
-
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                publishMessage("iot-bulb", "4");
-            }
-        });
-
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                publishMessage("iot-bulb", "5");
+                publishMessage("iot-bulb", formattedString);
             }
         });
     }
