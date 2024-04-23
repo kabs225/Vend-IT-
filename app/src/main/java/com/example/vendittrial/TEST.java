@@ -22,10 +22,6 @@ public class TEST extends AppCompatActivity {
 
         // Get reference to buttons
         Button button1 = findViewById(R.id.button1);
-        Button button2 = findViewById(R.id.button2);
-        Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
-        Button button5 = findViewById(R.id.button5);
 
         String item1 = itemSelectionPage.getItem1();
         String item2 = itemSelectionPage.getItem2();

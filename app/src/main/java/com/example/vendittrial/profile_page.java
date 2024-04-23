@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class profile_page extends AppCompatActivity {
 
     String username = LoginPage.getusername1();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

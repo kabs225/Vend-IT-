@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class LoginPage extends AppCompatActivity {
     private Button button;
     private static String user_name1= "kabeer";
+    private static String user_name2= "Srushti";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +31,7 @@ public class LoginPage extends AppCompatActivity {
                     Toast.makeText(LoginPage.this, "LOGIN SUCCESS",Toast.LENGTH_SHORT).show();
                     openMachineSelectionPage();
                 }
-                else if (username.getText().toString().equals("srushti")&&password.getText().toString().equals("admin"))
+                else if (username.getText().toString().equals(user_name2)&&password.getText().toString().equals("admin"))
                 {
                     Toast.makeText(LoginPage.this, "LOGIN SUCCESS",Toast.LENGTH_SHORT).show();
                     openMachineSelectionPage();
